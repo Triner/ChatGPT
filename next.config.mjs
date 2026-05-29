@@ -36,15 +36,15 @@ const nextConfig = {
 };
 
 const CorsHeaders = [
-  { key: "Access-Control-Allow-Credentials", value: "true" },
   { key: "Access-Control-Allow-Origin", value: "*" },
   {
     key: "Access-Control-Allow-Methods",
-    value: "*",
+    value: "GET, POST, OPTIONS",
   },
   {
     key: "Access-Control-Allow-Headers",
-    value: "*",
+    value:
+      "Content-Type, Authorization, x-requested-with, Accept, api-key, method",
   },
   {
     key: "Access-Control-Max-Age",
