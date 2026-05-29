@@ -90,7 +90,6 @@ export const getServerSideConfig = () => {
     googleUrl: process.env.GOOGLE_URL,
 
     needCode: ACCESS_CODES.size > 0,
-    code: process.env.CODE,
     codes: ACCESS_CODES,
 
     proxyUrl: process.env.PROXY_URL,
